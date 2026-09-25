@@ -2,8 +2,10 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Curso de Movimiento Animal</title>
-  <subtitle>Jornadas Argentinas de Mastozoología</subtitle>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,38 +13,141 @@
 
 <header>
   <h1>Curso de Movimiento Animal</h1>
+  <p class="subtitle">Jornadas Argentinas de Mastozoología</p>
 </header>
 
 <main>
 
-  <h2>Estructura del Taller</h2>
+  <h2>Sobre el curso</h2>
+
   <p>
-    Este taller sigue un estructura básica para todos los temas, la cual se detalla en la <a href="tema_1/pres/num_com.ddf">primera presentación </a>. Primero haremos una presentación teórica de conceptos clave para comprender el análisis, luego trabajaremos en R con scripts hechos en el momento, incialmente con datos simples simulados para entender la lógica del flujo de análisis y luego con datos reales descargados de MoveBank. 
+    Este curso introduce las bases conceptuales y algebraicas de la ecología
+    del movimiento y su implementación en R. El foco no estará en realizar
+    análisis complejos, sino en comprender cómo se representan y manipulan
+    trayectorias a partir de datos de localización.
   </p>
 
-  <h2>Días</h2>
+  <p>
+    Trabajaremos con números complejos para representar vectores y calcular
+    métricas básicas de movimiento, y veremos cómo preparar datos GPS
+    incorporando sistemas de coordenadas, proyecciones UTM y temporalidad.
+    Finalmente, aplicaremos este flujo de trabajo a trayectorias reales de
+    mamíferos.
+  </p>
 
-  <div class="module">
-    <h3>Día 1:</h3>
-    <p>Tipos de datos y objetos y números complejos</p>
-    <a href="tema_1/tema1.html">Explicación y Código</a>
+
+  <h2>Introducción</h2>
+
+  <div class="presentation-card">
+    <div>
+      <span class="presentation-label">Presentación</span>
+      <h3>Ecología de Movimientos</h3>
+      <p>
+        Introducción a la disciplina, conceptos generales y preguntas que
+        pueden abordarse a partir del estudio del movimiento animal.
+      </p>
+    </div>
+
+    <a
+      class="presentation-link"
+      href="presentaciones/01_ecologia_movimientos.pdf"
+      target="_blank"
+      rel="noopener noreferrer">
+      Ver presentación →
+    </a>
   </div>
 
-  <div class="module">
-    <h3>Día 2:</h3>
-    <p>Métricas de resumen y segmentación</p>
-    <a href="tema_2/tema2.html">Explicación y Código</a>
-  </div>
+
+  <h2>Temas</h2>
 
   <div class="module">
-    <h3>Día 3:</h3>
-    <p>Uso del Espacio y Selección</p>
-    <a href="tema_3/tema3.html">Explicación y Código</a>
+    <h3>Tema 1: Números complejos</h3>
+
+    <p>
+      Puntos y vectores en un plano cartesiano. Uso de números complejos para
+      representar desplazamientos y calcular métricas básicas de movimiento.
+    </p>
+
+    <div class="module-links">
+      <a href="presentaciones/02_numeros_complejos.pdf"
+         target="_blank"
+         rel="noopener noreferrer">
+        Presentación
+      </a>
+
+      <a href="tema1.html">
+        Explicación y código
+      </a>
+    </div>
   </div>
+
+
+  <div class="module">
+    <h3>Tema 2: Coordenadas y temporalidad</h3>
+
+    <p>
+      Formato de datos GPS, coordenadas geográficas y cartesianas,
+      transformación de WGS84 a UTM y manejo de fechas y horas con
+      <code>POSIXct</code>.
+    </p>
+
+    <div class="module-links">
+      <a href="presentaciones/03_coordenadas_temporalidad.pdf"
+         target="_blank"
+         rel="noopener noreferrer">
+        Presentación
+      </a>
+
+      <a href="tema_2/tema2.html">
+        Explicación y código
+      </a>
+    </div>
+  </div>
+
+
+  <div class="module">
+    <h3>Tema 3: De los datos GPS a una trayectoria</h3>
+
+    <p>
+      Aplicación del flujo de trabajo sobre datos reales: exploración,
+      formateo espacial y temporal, construcción de trayectorias, cálculo de
+      métricas básicas y visualización.
+    </p>
+
+    <div class="module-links">
+      <a href="tema3.html">
+        Explicación y código
+      </a>
+    </div>
+  </div>
+
+
+  <h2>Casos de estudio</h2>
+
+  <div class="presentation-card">
+    <div>
+      <span class="presentation-label">Presentación</span>
+      <h3>Casos de estudio</h3>
+      <p>
+        Ejemplos de aplicaciones de la ecología del movimiento en mamíferos
+        y discusión sobre qué podemos aprender a partir de las trayectorias.
+      </p>
+    </div>
+
+    <a
+      class="presentation-link"
+      href="presentaciones/04_casos_estudio.pdf"
+      target="_blank"
+      rel="noopener noreferrer">
+      Ver presentación →
+    </a>
+  </div>
+
 </main>
 
+
 <footer>
-  <p>2026 - Taller de Movimiento Animal</p>
+  <p>2026 · Curso de Movimiento Animal en R</p>
 </footer>
 
 </body>
