@@ -410,9 +410,11 @@ footer {
 
   text-decoration: none;
 }
-@media (max-width: 1450px) {
-  .side-nav {
-    display: none;
+
+@media (min-width: 1451px) {
+  main {
+    position: relative;
+    left: 100px;
   }
 }
 
