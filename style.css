@@ -101,18 +101,34 @@ li {
 }
 
 /* Puntitos sutiles tipo ventana */
+.module::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 18px;
+  width: 55px;
+  height: 18px;
+
+  background:
+    radial-gradient(circle at 4px 13px, #6eb8f5 0 3px, transparent 3.5px),
+    radial-gradient(circle at 25px 5px, #7fc0fa 0 3px, transparent 3.5px),
+    radial-gradient(circle at 50px 11px, #e8c882 0 3px, transparent 3.5px);
+
+  opacity: 0.9;
+}
+
 .module::after {
   content: "";
   position: absolute;
-  top: 12px;
-  left: 14px;
-  width: 40px;
-  height: 10px;
-  background:
-    radial-gradient(circle at 6px 5px, #4b5563 0 4px, transparent 4px),
-    radial-gradient(circle at 20px 5px, #6b7280 0 4px, transparent 4px),
-    radial-gradient(circle at 34px 5px, #9ca3af 0 4px, transparent 4px);
-  opacity: 0.85;
+  top: 25px;
+  left: 22px;
+  width: 48px;
+  height: 1px;
+
+  background: #5c7085;
+  transform: rotate(-3deg);
+  transform-origin: left center;
+  opacity: 0.65;
 }
 
 /* Hover mejorado */
