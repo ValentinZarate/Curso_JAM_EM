@@ -410,6 +410,11 @@ footer {
 
   text-decoration: none;
 }
+@media (max-width: 1450px) {
+  .side-nav {
+    display: none;
+  }
+}
 
 html {
   scroll-behavior: smooth;
