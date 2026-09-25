@@ -306,11 +306,20 @@ footer {
   margin-top: 18px;
 }
 
+.module-links a {
+  padding: 3px 0;
+  font-size: 0.92rem;
+}
+
 .module-links a::before {
   content: "→ ";
   color: #6eb8f5;
+  transition: margin-right 0.2s ease;
 }
 
+.module-links a:hover::before {
+  margin-right: 4px;
+}
 
 /* Adaptación para pantallas pequeñas */
 @media (max-width: 650px) {
