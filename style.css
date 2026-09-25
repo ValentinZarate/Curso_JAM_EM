@@ -7,8 +7,10 @@ body {
     linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px),
     #0b0f14;
   background-size: 26px 26px, 26px 26px, auto;
-  color: #e6edf3;
+
+  color: #f0f4f8;
   line-height: 1.72;
+  font-weight: 450;
 }
 
 /* Header */
@@ -31,7 +33,7 @@ header h1 {
 
 header p {
   margin: 0;
-  color: #a6b6c6;
+  color: #c0ccd6;
   font-size: 0.98rem;
 }
 
@@ -68,8 +70,9 @@ h3 {
 
 /* Texto */
 p, li {
-  color: #d8e1e6;
+  color: #e5ebf0;
   font-size: 0.98rem;
+  font-weight: 450;
 }
 
 p {
@@ -334,4 +337,85 @@ footer {
     white-space: normal;
   }
 
+}
+/* Navegación lateral */
+.side-nav {
+  position: fixed;
+
+  top: 150px;
+  left: 28px;
+
+  width: 210px;
+
+  background: linear-gradient(180deg, #161b22 0%, #11171e 100%);
+  border: 1px solid #30363d;
+  border-left: 3px solid #4c78a8;
+
+  border-radius: 9px;
+
+  padding: 20px 16px;
+
+  box-shadow: 0 8px 24px rgba(0,0,0,0.28);
+
+  z-index: 10;
+}
+
+
+/* Título */
+.side-nav-title {
+  color: #e8c882;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  letter-spacing: 0.12em;
+
+  margin-bottom: 14px;
+}
+
+
+/* Links */
+.side-nav a {
+  display: block;
+
+  color: #cbd6df;
+
+  font-size: 0.78rem;
+  font-weight: 500;
+
+  padding: 7px 5px;
+
+  border-left: 2px solid transparent;
+
+  transition: all 0.18s ease;
+}
+
+.side-nav::before {
+  content: "";
+
+  display: block;
+
+  width: 40px;
+  height: 10px;
+
+  margin-bottom: 18px;
+
+  background:
+    radial-gradient(circle at 6px 5px, #4b5563 0 4px, transparent 4px),
+    radial-gradient(circle at 20px 5px, #6b7280 0 4px, transparent 4px),
+    radial-gradient(circle at 34px 5px, #9ca3af 0 4px, transparent 4px);
+}
+
+.side-nav a:hover {
+  color: #79c0ff;
+
+  border-left-color: #58a6ff;
+
+  padding-left: 10px;
+
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
