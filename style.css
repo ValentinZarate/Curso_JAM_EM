@@ -65,7 +65,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 12px;
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* Texto */
@@ -255,6 +255,7 @@ footer {
 .presentation-card h3 {
   margin: 5px 0 8px;
   color: #e8c882;
+  font-weight: 600;
 }
 
 .presentation-card p {
