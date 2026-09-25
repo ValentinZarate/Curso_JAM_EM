@@ -426,6 +426,18 @@ footer {
     display: block;
   }
 }
+@media (max-width: 1099px) {
+
+  .side-nav {
+    display: none;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 42px auto;
+    padding: 0 22px;
+  }
+}
 
 html {
   scroll-behavior: smooth;
