@@ -457,7 +457,7 @@ html {
 .module-data h4 {
   margin: 0 0 10px 0;
   color: #e8c882;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -465,7 +465,7 @@ html {
   display: inline-block;
   color: #a9cfff;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 0.92rem;
 }
 
 .module-data a:hover {
@@ -477,7 +477,7 @@ html {
   display: block;
   color: #a9cfff;
   margin-bottom: 8px;
-  font-size: 1.5rem;
+  font-size: 0.92rem;
 }
 
 .activity-data a:hover {
