@@ -67,7 +67,13 @@ h3 {
   font-size: 1.05rem;
   font-weight: 600;
 }
-
+h4 {
+  color: #C7BD9D;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.00rem;
+  font-weight: 500;
+}
 /* Texto */
 p, li {
   color: #e5ebf0;
