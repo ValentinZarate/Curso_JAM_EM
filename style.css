@@ -467,11 +467,20 @@ html {
   text-decoration: none;
   font-size: 1.5rem;
 }
+
+.module-data a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
+
 .activity-data a {
   display: block;
+  color: #a9cfff;
   margin-bottom: 8px;
+  font-size: 1.5rem;
 }
-.module-data a:hover {
+
+.activity-data a:hover {
   color: #79c0ff;
   text-decoration: underline;
 }
