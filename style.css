@@ -448,3 +448,27 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+.module-data {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid #2d3741;
+}
+
+.module-data h4 {
+  margin: 0 0 10px 0;
+  color: #e8c882;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.module-data a {
+  display: inline-block;
+  color: #a9cfff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.module-data a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
