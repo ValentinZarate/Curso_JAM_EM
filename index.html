@@ -141,9 +141,21 @@
         Explicación y código (Sin Output)
       </a>
       
-      <a href="tray_real.html">
-        Explicación y código (Con Output)
-      </a> 
+      <a href="#" onclick="pedirClave()">
+      Explicación y código (Con Output)
+      </a>
+
+    <script>
+      function pedirClave() {
+        const clave = prompt("Ingresá la clave para acceder:");
+
+          if (clave === "jam2026") {
+          window.location.href = "tray_real.html";
+            } else if (clave !== null) {
+            alert("Clave incorrecta");
+                }
+              }
+    </script> 
     </div>
   </div>
 
