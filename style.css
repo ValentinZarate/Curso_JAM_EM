@@ -484,3 +484,53 @@ html {
   color: #79c0ff;
   text-decoration: underline;
 }
+/* Trayectoria decorativa en el borde derecho */
+.trajectory-bg {
+  position: fixed;
+  right: -25px;
+  top: 130px;
+
+  width: 115px;
+  height: calc(100vh - 130px);
+
+  pointer-events: none;
+  z-index: 0;
+
+  opacity: 0.16;
+}
+
+/* Línea de la trayectoria */
+.trajectory-line {
+  fill: none;
+  stroke: #6eb8f5;
+  stroke-width: 1.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  stroke-dasharray: 3 6;
+}
+
+/* Puntos GPS */
+.trajectory-point {
+  fill: #97C7C3;
+  opacity: 0.8;
+
+  stroke: #0b0f14;
+  stroke-width: 1;
+}
+
+/* Mantiene el contenido principal por encima */
+header,
+main,
+footer,
+.side-nav {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ocultarla en pantallas chicas */
+@media (max-width: 1099px) {
+  .trajectory-bg {
+    display: none;
+  }
+}
