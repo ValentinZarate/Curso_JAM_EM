@@ -487,48 +487,46 @@ html {
 /* Trayectoria decorativa en el borde derecho */
 .trajectory-bg {
   position: fixed;
-  right: -25px;
+  right: -15px;
   top: 130px;
 
-  width: 115px;
+  width: 130px;
   height: calc(100vh - 130px);
 
   pointer-events: none;
   z-index: 0;
 
-  opacity: 0.16;
+  opacity: 0.28;
 }
 
 /* Línea de la trayectoria */
 .trajectory-line {
   fill: none;
   stroke: #6eb8f5;
-  stroke-width: 1.3;
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
-
   stroke-dasharray: 3 6;
 }
 
 /* Puntos GPS */
 .trajectory-point {
   fill: #97C7C3;
-  opacity: 0.8;
+  opacity: 0.9;
 
   stroke: #0b0f14;
   stroke-width: 1;
 }
 
-/* Mantiene el contenido principal por encima */
+/* Contenido por encima de la trayectoria */
 header,
 main,
-footer,
-.side-nav {
+footer {
   position: relative;
   z-index: 1;
 }
 
-/* Ocultarla en pantallas chicas */
+/* En pantallas pequeñas no se muestra */
 @media (max-width: 1099px) {
   .trajectory-bg {
     display: none;
