@@ -139,7 +139,7 @@ li {
   border-left-color: #58a6ff;
   border-color: #97C7C3;
   background: linear-gradient(180deg, #1b2129 0%, #161c24 100%);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0,0,0,0.32);
 }
 
