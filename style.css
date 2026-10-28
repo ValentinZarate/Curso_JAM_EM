@@ -1,4 +1,4 @@
-/* Base */
+/* Cosas basee */
 body {
   margin: 0;
   font-family: "Fira Code", "Courier New", monospace;
@@ -13,7 +13,7 @@ body {
   font-weight: 450;
 }
 
-/* Header */
+/* Los headerss */
 header {
   background: linear-gradient(180deg, #11161c 0%, #0f1419 100%);
   color: #5cc3ff;
@@ -37,7 +37,7 @@ header p {
   font-size: 0.98rem;
 }
 
-/* Contenedor */
+/* Caja contenedora */
 main {
   max-width: 900px;
   margin: 42px auto;
@@ -109,7 +109,7 @@ li {
   box-shadow: 0 6px 18px rgba(0,0,0,0.18);
 }
 
-/* Puntitos sutiles tipo ventana */
+/* Puntitos tipo ventana */
 .module::before {
   content: "";
   display: block;
@@ -134,7 +134,7 @@ li {
   opacity: 0.85;
 }
 
-/* Hover mejorado */
+/* Hover */
 .module:hover {
   border-left-color: #58a6ff;
   border-color: #97C7C3;
@@ -152,7 +152,8 @@ a {
 }
 
 a:hover {
-  color: #79c0ff;
+  color: #7DF760;
+  font-weight: 550;
   text-decoration: underline;
 }
 
